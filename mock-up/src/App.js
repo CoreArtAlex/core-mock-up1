@@ -11,31 +11,39 @@ function App() {
   return (
     <StyleMain>
         <Router>
-          <img src=''></img>
-          <h3>Mock-Up</h3>
-          <nav>
-            <Link 
-            to="/" 
-            className='home' 
-            id='home-menu'>Home</Link>
-            <Link 
-            to="/quienessomos"
-            className='quienessomos'
-            id='quienessomos-menu'>Quienes Somos</Link>
-            <Link 
-            to="/servicios"
-            className='servicios'
-            id='servicios-menu'>Servicios</Link>
-            <Link 
-            to="/blog"
-            className='blog'
-            id='blog-menu'>Blog</Link>
-            <Link 
-            to="contact"
-            className='contact'
-            id='contact-menu'>Contacto</Link>
-          </nav>
-          <button>LogIn</button>
+          <div className='main'>
+            <img 
+            className='logo' 
+            id='logo-menu' 
+            src=''></img>
+            <h3 
+            className='title'
+            id='title-menu'>Mock-Up</h3>
+            <nav className='menu' id='main-menu'>
+              <Link 
+              to="/" 
+              className='home menu-ietm' 
+              id='home-menu'>Home</Link>
+              <Link 
+              to="/quienessomos"
+              className='quienessomos menu-ietm'
+              id='quienessomos-menu'>Quienes Somos</Link>
+              <Link 
+              to="/servicios"
+              className='servicios menu-ietm'
+              id='servicios-menu'>Servicios</Link>
+              <Link 
+              to="/blog"
+              className='blog menu-ietm'
+              id='blog-menu'>Blog</Link>
+              <Link 
+              to="contact"
+              className='contact menu-ietm'
+              id='contact-menu'>Contacto</Link>
+            </nav>
+            <button
+            className='login-btn'>LogIn</button>
+          </div>
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/quienessomos" element={<QuienesSomos/>}/>
