@@ -6,10 +6,9 @@ export default function Contact() {
       <StyleContacto>
         <div className='somos'>
           <form className='form'>
-            <h3>Queremos excucharte:</h3>
+            <h3>Queremos excucharte</h3>
             <hr />
             <p>
-
               Dejanos saber tus preguntas, dudas y sugerencias!
             </p>
             <label for='name'>Name:</label>
