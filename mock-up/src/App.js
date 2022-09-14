@@ -15,7 +15,8 @@ function App() {
             <img 
             className='logo' 
             id='logo-menu' 
-            src=''></img>
+            alt=''
+            src='https://i.pinimg.com/originals/b9/7d/97/b97d976b20e9889918becf0f5f4e7cbd.jpg'></img>
             <h3 
             className='title'
             id='title-menu'>Mock-Up</h3>
