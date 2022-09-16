@@ -6,6 +6,7 @@ display:flex;
 flex-direction: column;
 justify-content: space-between;
 font-family: 'Kanit', sans-serif;
+box-sizing: border-box;
 
 .main{
     display:flex;

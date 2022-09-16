@@ -7,6 +7,7 @@ flex-direction: column;
 justify-content: space-between;
 font-family: 'Kanit', sans-serif;
 padding: 15px 32px;
+box-sizing: border-box;
 
 .somos{
     display:flex;

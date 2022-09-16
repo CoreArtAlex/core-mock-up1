@@ -27,54 +27,29 @@ export default function Contact() {
           </form>
           <div className='info'>
             <h3>Donde nos puedes encontrar?</h3>
+            <hr className='line'/>
             <label>Pais</label>
             <div className='findUs'>
-              <img 
-                className='location' 
-                id='location-logo' 
-                alt=''
-                src=''></img>
-              <p>Direccion</p>
+              <i class="fa-solid fa-location-dot icon"></i>
+              <label className='donde'>Direccion</label>
             </div>
             <div className='findUs'>
-              <img 
-                className='location' 
-                id='phone' 
-                alt=''
-                src=''></img>
-              <p>XXX-XXX-XXX</p>
+              <i class="fa-solid fa-phone-volume icon"></i>
+              <label className='donde'>XXX-XXX-XXX</label>
             </div>
             <div className='findUs'>
-              <img 
-                className='location' 
-                id='email' 
-                alt=''
-                src=''></img>
-              <p>Correo electronico</p>
+              <i class="fa-solid fa-envelope icon"></i>
+              <label className='donde'>Correo electronico</label>
             </div>
             <div className='conect'>
-            <label className='follow'>Follow Us</label>
-            <img 
-                className='socials' 
-                id='facebook' 
-                alt=''
-                src=''></img>
-            <img 
-                className='socials' 
-                id='instagram' 
-                alt=''
-                src=''></img>
-            <img 
-                className='socials' 
-                id='twitter' 
-                alt=''
-                src=''></img>
-            <img 
-                className='socials' 
-                id='linkedin' 
-                alt=''
-                src=''></img>
-          </div>
+              <label className='follow'>Follow Us</label>
+              <div className='socials'>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+            </div>
           </div>
         </div>
       </StyleContacto>

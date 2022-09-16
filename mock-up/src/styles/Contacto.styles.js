@@ -39,4 +39,40 @@ export const StyleContacto = styled.div`
 .submit:hover{
     background-color: #45a049;
 }
+.info{
+    color: white;
+    background-color: #7F8487;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 15px 32px;
+}
+.line{
+    width:100%;
+}
+.findUs{
+    display:flex;
+    flex-direction: row;
+}
+.icon{
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+}
+.donde{
+    justify-content: center;
+    align-items: center;
+    padding: 5px 5px;
+}
+.conect{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.socials{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px 32px;
+}
 `;
